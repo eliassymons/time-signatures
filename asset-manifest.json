@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/time-signatures/static/css/main.2b6a230a.css",
-    "main.js": "/time-signatures/static/js/main.08d31c62.js",
+    "main.css": "/time-signatures/static/css/main.a297cbc2.css",
+    "main.js": "/time-signatures/static/js/main.9ee5d05d.js",
     "static/js/787.57cd791f.chunk.js": "/time-signatures/static/js/787.57cd791f.chunk.js",
     "static/media/piano-b&w.jpg": "/time-signatures/static/media/piano-b&w.bd263bfbd2cae1d5c208.jpg",
-    "static/media/segno.png": "/time-signatures/static/media/segno.90c38128f4d7598b7152.png",
     "index.html": "/time-signatures/index.html",
-    "main.2b6a230a.css.map": "/time-signatures/static/css/main.2b6a230a.css.map",
-    "main.08d31c62.js.map": "/time-signatures/static/js/main.08d31c62.js.map",
+    "main.a297cbc2.css.map": "/time-signatures/static/css/main.a297cbc2.css.map",
+    "main.9ee5d05d.js.map": "/time-signatures/static/js/main.9ee5d05d.js.map",
     "787.57cd791f.chunk.js.map": "/time-signatures/static/js/787.57cd791f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2b6a230a.css",
-    "static/js/main.08d31c62.js"
+    "static/css/main.a297cbc2.css",
+    "static/js/main.9ee5d05d.js"
   ]
 }
