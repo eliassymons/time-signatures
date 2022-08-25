@@ -212,11 +212,20 @@ button:hover {
     padding: 1rem;
     max-width: 80vw;
     height: 90vh;
+   
+  }
+  .about-info{
+    width: 80vw;
   }
   .about-container h3 {
+    font-size: 2rem;
     margin: 1rem;
+    text-align: center;
   }
   .about-container p {
     font-size: 1.1rem;
+  }
+  .player-container{
+    height: 40vh;
   }
 }

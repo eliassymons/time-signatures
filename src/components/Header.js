@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import segno from "../images/segno.png";
+
 
 export default function Header() {
   return (

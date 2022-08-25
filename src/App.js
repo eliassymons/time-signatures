@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/Header";
 import React from "react";
 import data from "./data";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter as Router } from "react-router-dom";
 import RouteTree from "./RouteTree";
 
 
@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <Router>
         <Header />
         <RouteTree
           url={index.url}
@@ -50,7 +50,7 @@ function App() {
           timeSignature={index.timeSignature}
           
         />
-      </BrowserRouter>
+      </Router>
     </div>
   );
 }
