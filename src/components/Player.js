@@ -1,7 +1,6 @@
 import React from "react";
 import ReactPlayer from "react-player";
 
-
 export default function Player(props) {
   return (
     <div className="player-container">
@@ -9,7 +8,7 @@ export default function Player(props) {
       <ReactPlayer
         className="react-player"
         url={props.url}
-        width="40vw"
+        width="60vw"
         height="40vh"
       />
     </div>

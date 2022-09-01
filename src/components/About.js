@@ -6,10 +6,10 @@ export default function App() {
         {" "}
         <p>
           Have you ever been listening to a song and tapping your foot along to
-          the groove? Have you noticed that you tap your foot in regular groups?
-          The way beats are grouped together is referred to by musicians as
-          meter. This is the overall pulse of the music. It's similar to the way
-          poems use the same number of syllables from one phrase to the next.
+          the beat? Have you noticed that you tap your foot in regular groups?
+          The way beats are grouped together is referred to as meter. This is
+          the overall pulse of the music. It's similar to the way poems use the
+          same number of syllables from one phrase to the next.
         </p>
         <p>
           Understanding meter allows us to understand and connect to the

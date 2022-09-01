@@ -8,7 +8,7 @@ body {
   font-family: "Open Sans", sans-serif;
   background-image: url("./images/piano-b&w.jpg");
   background-position: center;
-background-repeat: no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
@@ -67,8 +67,8 @@ ul li {
 }
 .about-container {
   max-width: 80vw;
-  width: 60vw;
-  height: 85vh;
+  max-width: 60vw;
+  max-height: 80vh;
 
   display: flex;
   flex-direction: column;
@@ -78,12 +78,13 @@ ul li {
 }
 
 .about-info {
-  font-size: 1.6rem;
+  margin-top: 4rem;
+  font-size: 1.4rem;
   text-indent: 4rem;
-  color: white;
-  padding: 0.8rem;
+  color: black;
+  padding: 2rem;
   border-radius: 1rem;
-  background-color: rgba(15, 69, 90, 0.555);
+  background-color: rgba(255, 255, 255, 0.568);
 }
 
 .player-container {
@@ -97,6 +98,7 @@ ul li {
   box-shadow: -1px 2px 28px 10px rgba(255, 255, 255, 0.856);
   -webkit-box-shadow: -1px 2px 28px 10px rgba(255, 255, 255, 0.486);
   -moz-box-shadow: -1px 2px 28px 10px rgba(255, 255, 255, 0.514);
+  max-width: 40vw;
 }
 
 .game-container {
@@ -125,32 +127,31 @@ button {
   cursor: pointer;
   transition: all 0.2s ease;
 }
-.btn-green{
+.btn-green {
   animation: toGreen 1s ease;
-  
 }
-.btn-red{
+.btn-red {
   animation: toRed 1s ease;
 }
 @keyframes toGreen {
-  0%{
-    background-color:rgba(83, 83, 83, 0.795);
+  0% {
+    background-color: rgba(83, 83, 83, 0.795);
   }
-  30%{
+  30% {
     background-color: rgb(20, 196, 20);
   }
-  100%{
+  100% {
     background-color: rgba(83, 83, 83, 0.795);
   }
 }
 @keyframes toRed {
-  0%{
-    background-color:rgba(83, 83, 83, 0.795);
+  0% {
+    background-color: rgba(83, 83, 83, 0.795);
   }
-  50%{
+  50% {
     background-color: rgb(219, 42, 42);
   }
-  100%{
+  100% {
     background-color: rgba(83, 83, 83, 0.795);
   }
 }
@@ -191,8 +192,11 @@ button:hover {
   .player-container h3 {
     margin-bottom: 0.5rem;
   }
+  .react-player {
+    max-width: 70vw;
+  }
   h1 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
   h3 {
     font-size: 1.3rem;
@@ -206,26 +210,27 @@ button:hover {
     align-items: center;
   }
   .link {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
   }
   .about-container {
     padding: 1rem;
     max-width: 80vw;
     height: 90vh;
-   
   }
-  .about-info{
+  .about-info {
     width: 80vw;
+    margin-top: 0;
   }
   .about-container h3 {
-    font-size: 2rem;
+    display: none;
+    font-size: 1.5rem;
     margin: 1rem;
     text-align: center;
   }
   .about-container p {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
-  .player-container{
+  .player-container {
     height: 40vh;
   }
 }
