@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/time-signatures/static/css/main.a297cbc2.css",
-    "main.js": "/time-signatures/static/js/main.9ee5d05d.js",
+    "main.css": "/time-signatures/static/css/main.4a9549ea.css",
+    "main.js": "/time-signatures/static/js/main.fcf27445.js",
     "static/js/787.57cd791f.chunk.js": "/time-signatures/static/js/787.57cd791f.chunk.js",
     "static/media/piano-b&w.jpg": "/time-signatures/static/media/piano-b&w.bd263bfbd2cae1d5c208.jpg",
     "index.html": "/time-signatures/index.html",
-    "main.a297cbc2.css.map": "/time-signatures/static/css/main.a297cbc2.css.map",
-    "main.9ee5d05d.js.map": "/time-signatures/static/js/main.9ee5d05d.js.map",
+    "main.4a9549ea.css.map": "/time-signatures/static/css/main.4a9549ea.css.map",
+    "main.fcf27445.js.map": "/time-signatures/static/js/main.fcf27445.js.map",
     "787.57cd791f.chunk.js.map": "/time-signatures/static/js/787.57cd791f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a297cbc2.css",
-    "static/js/main.9ee5d05d.js"
+    "static/css/main.4a9549ea.css",
+    "static/js/main.fcf27445.js"
   ]
 }
